@@ -11,7 +11,7 @@ import preprocessor,helper
 
 
 main_df = pd.read_csv('https://drive.google.com/file/d/13UmEV32bi5kpS8eND8SNVp6HNH8LIaMk/view?usp=drive_link')
-region_noc = pd.read_csv('https://drive.google.com/file/d/1SarhhgBknSbrKJsq1CgmOsOsKXaEZZg1/view?usp=drive_link')
+region_noc = pd.read_csv('https://github.com/Sayanik-tech/Data_Analysis_Proj1/blob/main/noc_regions.csv')
 
 
 st.sidebar.title('Olympics Analysis')
