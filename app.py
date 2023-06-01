@@ -10,8 +10,8 @@ import scipy
 import preprocessor,helper
 
 
-main_df = pd.read_csv('F:/Praxis Project/Data analysis_olympic dataset/athlete_events.csv')
-region_noc = pd.read_csv('F:/Praxis Project/Data analysis_olympic dataset/noc_regions.csv')
+main_df = pd.read_csv('athlete_events.csv')
+region_noc = pd.read_csv('noc_regions.csv')
 
 
 st.sidebar.title('Olympics Analysis')
