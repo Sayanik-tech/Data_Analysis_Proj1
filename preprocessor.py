@@ -3,7 +3,7 @@ import numpy as np
 
 def preprocess(main_df,region_noc):
     ## we want only summer olympics data (Filtering data)
-    #main_df = main_df[main_df['Season'] == 'Summer']
+    main_df = main_df[main_df['Season'] == 'Summer']
     ## Merging two dataset on basis of NOC
     main_df = main_df.merge(region_noc, on='NOC', how='left')
     ## Dropping duplicates
