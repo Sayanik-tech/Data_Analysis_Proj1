@@ -10,8 +10,8 @@ import scipy
 import preprocessor,helper
 
 
-main_df = pd.read_csv('athlete_events.csv')
-region_noc = pd.read_csv('noc_regions.csv')
+main_df = pd.read_csv('https://drive.google.com/file/d/13UmEV32bi5kpS8eND8SNVp6HNH8LIaMk/view?usp=drive_link')
+region_noc = pd.read_csv('https://drive.google.com/file/d/1SarhhgBknSbrKJsq1CgmOsOsKXaEZZg1/view?usp=drive_link')
 
 
 st.sidebar.title('Olympics Analysis')
