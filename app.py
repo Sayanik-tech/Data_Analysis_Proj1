@@ -10,7 +10,7 @@ import scipy
 import preprocessor,helper
 
 
-main_df = pd.read_csv('https://drive.google.com/file/d/13UmEV32bi5kpS8eND8SNVp6HNH8LIaMk/view?usp=drive_link')
+main_df = pd.read_csv('https://raw.githubusercontent.com/Sayanik-tech/Data_Analysis_Proj1/main/athlete_events.csv')
 region_noc = pd.read_csv('https://github.com/Sayanik-tech/Data_Analysis_Proj1/blob/main/noc_regions.csv')
 
 
